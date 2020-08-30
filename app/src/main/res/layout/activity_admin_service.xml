@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserService.ServiceActivity"
+    android:background="@drawable/grad_bg">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@drawable/back">
+
+
+                    <ImageView
+                        android:layout_width="149dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bike_dash" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LiRON AUTOMOTIVE PVT. LTD."
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/raleway_semibold"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="81dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="372dp"
+                        android:layout_height="61dp"
+                        android:id="@+id/Contacts_Card"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/contacts_text"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="16dp"
+                            android:text="Contacts"
+                            android:fontFamily="@font/raleway_medium"
+                            android:textAlignment="center"
+                            android:textColor="#E2000000"
+                            android:textSize="20sp" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/linear_layout"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="372dp"
+                        android:layout_height="61dp"
+                        android:id="@+id/Notifications_Card"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/notification_text"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="16dp"
+                            android:text="Notifications"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/raleway_medium"
+                            android:textAlignment="center"
+                            android:textColor="#E2000000"
+                            />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".AdminEditUserDetails.AdminEditUserActivity">
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/relative_mobile_no">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Enter User Mobile No"
+                android:textColor="@color/white"
+                android:fontFamily="@font/raleway_semibolditalic"
+                android:textSize="25sp"
+                android:layout_marginLeft="25dp"
+
+                />
+
+            <EditText
+                android:id="@+id/mobile_no"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/rounded"
+                android:drawableStart="@drawable/mobile"
+                android:drawableLeft="@drawable/mobile"
+                android:drawablePadding="12dp"
+                android:hint="Mobile Number"
+                android:fontFamily="@font/raleway_mediumitalic"
+                android:inputType="number"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:background="@drawable/rounded_white_button"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:id="@+id/user_nextBtn"
+                android:fontFamily="@font/raleway_semibolditalic"
+                android:layout_marginTop="180dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textSize="18sp"
+                />
+
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative_user_detail"
+        android:visibility="gone"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/scroll"
+            android:layout_height="wrap_content"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Driver Profile"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/raleway_bold"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:drawablePadding="12dp"
+                        android:maxLength="50"
+                        android:hint="Full Name"
+                        android:textColor="@color/white"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:fontFamily="@font/raleway_medium"
+                        android:padding="10dp"
+                        android:enabled="false"
+                        android:drawableStart="@drawable/ic_person_black_24dp"
+                        android:background="@drawable/rounded"
+                        android:textColorHint="@color/white"
+                        android:drawableLeft="@drawable/ic_person_black_24dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/user_owner_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:maxLength="50"
+                        android:inputType="number"
+                        android:fontFamily="@font/raleway_medium"
+                        android:drawablePadding="12dp"
+                        android:padding="10dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Owner Id"
+                        android:maxLines="1"
+                        android:layout_marginStart="30dp"
+                        android:background="@drawable/rounded"
+                        android:drawableStart="@drawable/ic_person_black_24dp"
+                        android:drawableLeft="@drawable/ic_person_black_24dp" />
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <EditText
+                        android:id="@+id/user_model"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_medium"
+                        android:layout_marginTop="20dp"
+                        android:maxLength="50"
+                        android:inputType="text"
+                        android:drawablePadding="12dp"
+                        android:padding="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Model"
+                        android:background="@drawable/rounded"
+                        android:layout_marginStart="30dp"
+                        android:drawableStart="@drawable/bike"
+                        android:textColorHint="@color/white"
+                        android:maxLines="1"
+                        android:drawableLeft="@drawable/bike" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+                    <EditText
+                        android:id="@+id/user_date_of_purchase"
+                        android:fontFamily="@font/raleway_medium"
+                        android:layout_width="196dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="30dp"
+                        android:drawablePadding="12dp"
+                        android:hint="Date of Purchase"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:drawableStart="@drawable/calender"
+                        android:layout_marginStart="30dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:background="@drawable/rounded"
+                        android:drawableLeft="@drawable/calender" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/pickdop"
+                        android:layout_marginTop="30dp"
+                        android:src="@drawable/calender"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <EditText
+                        android:id="@+id/user_vehicle_registration_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:maxLength="50"
+                        android:inputType="text"
+                        android:fontFamily="@font/raleway_medium"
+                        android:drawablePadding="12dp"
+                        android:padding="10dp"
+                        android:drawableStart="@drawable/bike"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="30dp"
+                        android:background="@drawable/rounded"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Vehicle Registration Number"
+                        android:textColorHint="@color/white"
+                        android:maxLines="1"
+                        android:drawableLeft="@drawable/bike" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <EditText
+                        android:id="@+id/user_vehicle_Identification_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/raleway_medium"
+                        android:maxLength="50"
+                        android:inputType="number"
+                        android:drawablePadding="12dp"
+                        android:padding="10dp"
+                        android:background="@drawable/rounded"
+                        android:layout_marginStart="30dp"
+                        android:drawableStart="@drawable/bike"
+                        android:textColor="@color/white"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Vehicle Identification Number"
+                        android:textColorHint="@color/white"
+                        android:maxLines="1"
+                        android:drawableLeft="@drawable/bike" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/user_update_button"
+                        android:text="Update"
+                        android:fontFamily="@font/raleway_bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:background="@drawable/register_back"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+    </RelativeLayout>

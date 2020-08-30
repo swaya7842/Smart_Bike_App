@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    >
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_marginStart="50dp"-->
+<!--    android:layout_marginEnd="50dp"-->
+<!--    android:orientation="vertical">-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="5"
+        >
+ <TextView
+     android:layout_width="0dp"
+     android:layout_weight="5"
+     android:layout_height="wrap_content"
+     android:text="Bike Model Name"
+     android:textSize="18dp"
+     android:fontFamily="@font/raleway_medium"
+     android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/bike_model_name"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="18dp"
+            android:fontFamily="@font/raleway_medium"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="5">
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Vehicle Identification No"
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:fontFamily="@font/raleway_medium"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/vehicle_id"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/raleway_medium"
+            android:textColor="@color/white"
+            android:text=""
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:fontFamily="@font/raleway_medium"
+            android:text="Vehicle Registration No"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/vehicle_reg_no"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/raleway_medium"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+<!--    </LinearLayout>-->
+
+    </LinearLayout>
