@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">LironAutomotive</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_dashboard_nav">DashboardNavActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pref_file">com.abc.preference_file</string>
+    <string name="pref_login_status">com.abc.preference_login_status</string>
+    <string name="pref_Mobile_No">com.abc.preference_Mobile_No</string>
+
+
+    <string name="About1">We the “Liron Automotives Pvt. Ltd.”One of the India’s Rising E- Mobility solution providing company. We are primarily engaged in designing and manufacturing of e-scooters and hybrid bike solutions.</string>
+    <string name="About2"> Having customer focus and Team work as a core values, we the Liron Automotive will dedicate ourselves to deliver world’s best e-mobility solution at very competitive cost. We design products and experiences that fit seamlessly into our society so we can achieve our zero emission goals.</string>
+    <string name="About3"> Our focus on connecting aspirations and our tech-enabled products keeps us at the forefront of the market. Our every product and service is based on the belief that we are here to make our customers life better.</string>
+    <string name="About4">Our experienced team of engineers inspires, motivates and guides the organization to greater success by defining new innovating and exciting horizons to scale.</string>
+    <string name="About5">Our strong focus on manufacturing excellence ensures that our product will meet the highest standards of quality. Today, we are with state of the art infrastructure having integral facilities for everything from design to delivery under one roof.</string>
+
+
+    <string name="Tip1">1) Only individuals who fulfil the necessary requirements are allowed to ride. These requirements are governed by country-specific provisions.</string>
+    <string name="Tip2">2) Do not carry out any alterations to the Scooter other than installing genuine Liron  accessories. Removing original parts and installing replacement parts that are not authorised by the manufacturer can make the scooter unsafe and result in risk to life and limb as well as invalidating the type approval.</string>
+    <string name="Tip3">3) Always use the lights when riding at night or in conditions with low visibility. Only ride during suitable weather conditions. Do not ride the Scooter when there is hard-packed snow or black ice. Wet or slippery roads increase braking distances and the risk of accidents.</string>
+    <string name="Tip4">4) The tires have a groove profile, and so you should be careful when riding on wet, sandy or other slippery surfaces.</string>
+    <string name="Tip5">5) Do not use the charger during thunderstorms</string>
+    <string name="Tip6">6) Never touch the charger or connector with wet hands</string>
+    <string name="Tip7">7) The charger and battery are not toys and must be kept away from children.</string>
+    <string name="Tip8">8) Avoid excessive exposure to sunlight (risk of overheating!).</string>
+
+
+    <string name="About">We the “Liron Automotives Pvt. Ltd.”One of the India’s Rising E- Mobility solution providing company. We are primarily engaged in designing and manufacturing of e-scooters and hybrid bike solutions. Having customer focus and Team work as a core values, we the Liron Automotive will dedicate ourselves to deliver world’s best e-mobility solution at very competitive cost. We design products and experiences that fit seamlessly into our society so we can achieve our zero emission goals. Our focus on connecting aspirations and our tech-enabled products keeps us at the forefront of the market. Our every product and service is based on the belief that we are here to make our customers life better. Our experienced team of engineers inspires, motivates and guides the organization to greater success by defining new innovating and exciting horizons to scale. Our strong focus on manufacturing excellence ensures that our product will meet the highest standards of quality. Today, we are with state of the art infrastructure having integral facilities for everything from design to delivery under one roof.</string>
+
+    <string name="google_map_api">AIzaSyDbbfxfeC_N2TM-r20xOlVoqyuiTkBr4HY</string>
+
+    <string name="dialog_title">Be Aware</string>
+
+    <string name="dialog_text">You do not have permission to edit Mobile Number, Owner ID,
+        Vehicle Registration Number and Vehicle Identification Number</string>
+
+    <string name="contact_image">contact_image</string>
+</resources>
